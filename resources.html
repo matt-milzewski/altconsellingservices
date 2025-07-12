@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | Alternative Counselling Services</title>
+    <meta name="description" content="Helpful resources and articles about mental health, counselling, and wellbeing from Alternative Counselling Services.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/acs-logo.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Skip to content link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container container">
+            <a href="index.html" class="nav-logo-link">
+                <span class="nav-logo-text">Alternative Counselling Services</span>
+            </a>
+
+            <nav class="nav-desktop">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="resources.html" class="active">Resources</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            
+            <a href="contact.html" class="btn btn-primary nav-consult-btn">Request Consult</a>
+
+            <button class="nav-toggle" aria-label="Toggle Navigation">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </button>
+        </div>
+    </header>
+    
+    <div class="nav-mobile-overlay" role="dialog" aria-modal="true">
+        <nav class="nav-mobile">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="btn btn-primary">Request a Free Consult</a>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Resources Hero -->
+        <section class="hero" style="background-image: url('assets/img/hero-2.jpg'); min-height: 40vh;">
+            <div class="hero-content">
+                <h1>Resources</h1>
+                <p>Explore articles and tools to support your mental well-being journey.</p>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <section class="section container">
+            <div class="search-container">
+                <h2 class="section-title">Search Resources</h2>
+                <form class="search-form">
+                    <input type="search" class="form-control" placeholder="E.g., 'anxiety', 'parenting', 'self-care'">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Resources Grid -->
+        <section class="section container" style="padding-top: 0;">
+            <div class="resources-grid">
+                <!-- Resource Card 1: Anxiety -->
+                <div class="card resource-card">
+                    <img src="assets/img/resource-anxiety.svg" alt="Anxiety icon" class="resource-card-icon">
+                    <h3>5 Simple Techniques to Manage Anxiety</h3>
+                    <p>Learn practical, easy-to-implement strategies to find calm in moments of stress.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+
+                <!-- Resource Card 2: Self-Care -->
+                <div class="card resource-card">
+                    <img src="assets/img/resource-selfcare.svg" alt="Self-care icon" class="resource-card-icon">
+                    <h3>The Importance of Self-Care for Mental Health</h3>
+                    <p>Discover why making time for yourself is essential for a balanced and healthy life.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+
+                <!-- Resource Card 3: Trauma -->
+                <div class="card resource-card">
+                    <img src="assets/img/resource-trauma.svg" alt="Trauma icon" class="resource-card-icon">
+                    <h3>Understanding Trauma and Its Effects</h3>
+                    <p>An introduction to what trauma is and how it can impact your daily life and relationships.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+
+                <!-- Resource Card 4: Parenting -->
+                <div class="card resource-card">
+                    <img src="assets/img/resource-parenting.svg" alt="Parenting icon" class="resource-card-icon">
+                    <h3>Navigating Parenting Challenges</h3>
+                    <p>Tips for building stronger connections with your children and managing family stress.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+                
+                <!-- Resource Card 5: Cultural -->
+                <div class="card resource-card">
+                    <img src="assets/img/resource-cultural.svg" alt="Cultural counselling icon" class="resource-card-icon">
+                    <h3>Cultural Sensitivity in Counselling</h3>
+                    <p>Why understanding cultural backgrounds is key to effective and respectful therapy.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+
+                <!-- Resource Card 6: Online -->
+                <div class="card resource-card">
+                    <img src="assets/img/resource-online.svg" alt="Online therapy icon" class="resource-card-icon">
+                    <h3>Making the Most of Online Therapy</h3>
+                    <p>How to prepare for and get the best results from your virtual counselling sessions.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="section newsletter-section" style="background-color: var(--color-light-alt);">
+            <div class="container text-center">
+                <h2 class="section-title">Stay Updated</h2>
+                <p class="lead">Subscribe to our newsletter for the latest articles, resources, and insights from our team.</p>
+                <form class="newsletter-form">
+                    <input type="email" class="form-control" placeholder="Enter your email address">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-col-1">
+                    <img src="assets/img/acs-logo.png" alt="Alternative Counselling Services Logo" class="footer-logo">
+                    <p class="footer-tagline">Compassionate online counselling for a brighter tomorrow.</p>
+                </div>
+                <div class="footer-col footer-col-2">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-col-3">
+                    <h3>Credentials</h3>
+                    <ul class="footer-links">
+                        <li>Master of Social Work</li>
+                        <li>B.A. Psychology</li>
+                        <li>ACA Level 2 Member</li>
+                        <li>NDIS Registered Provider</li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-col-4">
+                    <h3>Connect With Us</h3>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> Alternative Counselling Services — All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html> 

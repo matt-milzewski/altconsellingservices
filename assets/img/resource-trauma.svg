@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="100" cy="100" r="90" fill="#F5F7FA" stroke="#1ABC9C" stroke-width="2"/>
+    
+    <!-- Dragonfly Body -->
+    <path d="M100 40 L100 160" stroke="#1ABC9C" stroke-width="4" fill="none"/>
+    
+    <!-- Dragonfly Wings -->
+    <path d="M100 60 C60 40, 40 80, 60 100" stroke="#1ABC9C" stroke-width="3" fill="none"/>
+    <path d="M100 60 C140 40, 160 80, 140 100" stroke="#1ABC9C" stroke-width="3" fill="none"/>
+    <path d="M100 100 C60 120, 40 160, 60 140" stroke="#1ABC9C" stroke-width="3" fill="none"/>
+    <path d="M100 100 C140 120, 160 160, 140 140" stroke="#1ABC9C" stroke-width="3" fill="none"/>
+    
+    <!-- Head -->
+    <circle cx="100" cy="40" r="8" fill="#1ABC9C"/>
+    
+    <!-- Eyes -->
+    <circle cx="96" cy="36" r="3" fill="white"/>
+    <circle cx="104" cy="36" r="3" fill="white"/>
+    
+    <!-- Trauma Healing Elements -->
+    <!-- Broken Chain -->
+    <path d="M50 80 L70 80" stroke="#7E57C2" stroke-width="3" fill="none"/>
+    <path d="M80 80 L100 80" stroke="#7E57C2" stroke-width="3" fill="none"/>
+    <path d="M110 80 L130 80" stroke="#7E57C2" stroke-width="3" fill="none"/>
+    <path d="M140 80 L160 80" stroke="#7E57C2" stroke-width="3" fill="none"/>
+    
+    <!-- Healing Path -->
+    <path d="M60 120 C80 100, 120 140, 140 120" stroke="#1ABC9C" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+    
+    <!-- Growth Elements -->
+    <circle cx="70" cy="140" r="5" fill="#7E57C2" opacity="0.6"/>
+    <circle cx="100" cy="130" r="5" fill="#7E57C2" opacity="0.6"/>
+    <circle cx="130" cy="140" r="5" fill="#7E57C2" opacity="0.6"/>
+</svg> 

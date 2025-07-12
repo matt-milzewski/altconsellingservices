@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Alternative Counselling Services</title>
+    <meta name="description" content="Get in touch with Alternative Counselling Services to schedule your free 15-minute consultation. Online counselling available across Australia.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/acs-logo.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Skip to content link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container container">
+            <a href="index.html" class="nav-logo-link">
+                <span class="nav-logo-text">Alternative Counselling Services</span>
+            </a>
+
+            <nav class="nav-desktop">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+            
+            <a href="contact.html" class="btn btn-primary nav-consult-btn">Request Consult</a>
+
+            <button class="nav-toggle" aria-label="Toggle Navigation">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </button>
+        </div>
+    </header>
+    
+    <div class="nav-mobile-overlay" role="dialog" aria-modal="true">
+        <nav class="nav-mobile">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="btn btn-primary">Request a Free Consult</a>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Contact Section -->
+        <section class="section container">
+            <div class="text-center" style="margin-bottom: 3rem;">
+                <h1 class="section-title">Get In Touch</h1>
+                <p class="lead">Have a question or ready to start your journey? Reach out to us. We typically respond within one business day.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="card">
+                    <h3>Contact Information</h3>
+                    <p>For general inquiries or to book a consultation, please use the form or contact us directly.</p>
+                    <ul class="contact-details-list">
+                        <li><i class="fas fa-map-marker-alt"></i><span>Servicing Australia-wide (Online)</span></li>
+                        <li><i class="fas fa-envelope"></i><a href="mailto:contact@altcounsellingservices.com">contact@altcounsellingservices.com</a></li>
+                        <li><i class="fas fa-phone"></i><a href="tel:+61412345678">(+61) 412 345 678</a></li>
+                    </ul>
+                    <div class="privacy-note">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Your privacy is important to us. All communications are confidential.</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Send a Message</h3>
+                    <form action="https://formspree.io/f/your-form-id" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-col-1">
+                    <img src="assets/img/acs-logo.png" alt="Alternative Counselling Services Logo" class="footer-logo">
+                    <p class="footer-tagline">Compassionate online counselling for a brighter tomorrow.</p>
+                </div>
+                <div class="footer-col footer-col-2">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-col-3">
+                    <h3>Credentials</h3>
+                    <ul class="footer-links">
+                        <li>Master of Social Work</li>
+                        <li>B.A. Psychology</li>
+                        <li>ACA Level 2 Member</li>
+                        <li>NDIS Registered Provider</li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-col-4">
+                    <h3>Connect With Us</h3>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> Alternative Counselling Services — All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html> 
