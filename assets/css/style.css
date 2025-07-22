@@ -378,17 +378,6 @@ main {
     margin-bottom: 1.5rem;
 }
 
-/* Newsletter Section */
-.newsletter-section {
-    background-color: var(--color-light-alt);
-}
-
-.newsletter-form {
-    display: flex;
-    gap: 0.5rem;
-    max-width: 600px;
-    margin: 0 auto;
-}
 
 /* Services Page */
 .services-page-header {
