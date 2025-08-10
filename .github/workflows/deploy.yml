@@ -28,7 +28,6 @@ jobs:
             --exclude "README.md" \
             --exclude "bucket-policy.json" \
             --delete
-            - name: Invalidate CloudFront cache
 
       - name: Invalidate CloudFront cache      
         run: |
